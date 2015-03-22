@@ -61,12 +61,12 @@ The overall goal of this assignment is to explore the National Emissions Invento
 
 You must address the following questions and tasks in your exploratory analysis. For each question/task you will need to make a single plot. Unless specified, you can use any plotting system in R to make your plot.
 
-1. Have total emissions from $PM_{2.5}$ decreased in the United States from 1999 to 2008? Using the **base** plotting system, make a plot showing the total $PM_{2.5}$ emission from all sources for each of the years 1999, 2002, 2005, and 2008.
-2. Have total emissions from $PM_{2.5}$ decreased in the **Baltimore City**, Maryland (``fips == "24510"``) from 1999 to 2008? Use the base plotting system to make a plot answering this question.
-3. Of the four types of sources indicated by the ``type`` (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999�2008 for **Baltimore City**? Which have seen increases in emissions from 1999�2008? Use the **ggplot2** plotting system to make a plot answer this question.
-4. Across the United States, how have emissions from coal combustion-related sources changed from 1999�2008?
-5. How have emissions from motor vehicle sources changed from 1999�2008 in **Baltimore City**?
-6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in **Los Angeles County**, California (``fips == "06037"``). Which city has seen greater changes over time in motor vehicle emissions?
+1. Have total emissions from $PM_{2.5}$ decreased in the United States from 1999 to 2008? Using the **base** plotting system, make a plot showing the total $PM_{2.5}$ emission from all sources for each of the years 1999, 2002, 2005, and 2008. [ANSWER: YES, From the sample data, I found out that total emission of PM2.5 went down from about 7000 Kiloton (in 1999) to about 3000 Kiloton (in 2008)] 
+2. Have total emissions from $PM_{2.5}$ decreased in the **Baltimore City**, Maryland (``fips == "24510"``) from 1999 to 2008? Use the base plotting system to make a plot answering this question. [ANSWER: YES, From the sample data, I found out that total emission of PM2.5 went down from about 3300 Kiloton (in 1999) to about 1800 Kiloton (in 2008)] 
+3. Of the four types of sources indicated by the ``type`` (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999�2008 for **Baltimore City**? Which have seen increases in emissions from 1999�2008? Use the **ggplot2** plotting system to make a plot answer this question..[ANSWER: NonRoad, OnRoad, Point seen decrease in emission and nonpoint stays almost same]
+4. Across the United States, how have emissions from coal combustion-related sources changed from 1999�2008?[ ANSWER: Emissions due to coal combustion-related sources decreased, signigicantly, from about 600 Kiloton in 1999 to about 350 Kiloton in 2008]
+5. How have emissions from motor vehicle sources changed from 1999�2008 in **Baltimore City**? [ ANSWER: Emissions from motor vehicle sources decreased from 347 kiloton in 1999 to 88 kiloton in 2008 ]
+6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in **Los Angeles County**, California (``fips == "06037"``). Which city has seen greater changes over time in motor vehicle emissions? [ ANSWER: Compare to Baltimore, Los Angeles has consistently higher emissions. Between 1999 and 2008, Baltimore saw drop of approximately 300 kiloton (from 400 to 100). But Los Angeles seen an increase from 3900 to about 4100, which about 200 Kiloton increase. So, Baltimore had greater change (decrease).
 
 ### Making and Submitting Plots
 
